@@ -1,0 +1,50 @@
+
+.lower {
+	height: 65%;
+	min-height: 400px;
+	padding-top: 25px;
+}
+h2{
+	margin-left: 10%;
+}
+h3{
+	font-size: 26px;
+}
+p {
+	font-size: 20px;
+	line-height: 26px;
+}
+#map{
+	float:right;
+	width: 40%;
+	min-height: 25%;
+	margin-right:10%;
+	margin-left:auto;
+	min-width: 25%;
+	height: 75%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 ;
+  background-color: white;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 65%;
+  margin-bottom: 10px;
+}
+.card:last-of-type {
+	margin-bottom: 30px;
+}
+.about-section {
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #d3d3d3;
+  color: black;
+  height: 100px;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+}

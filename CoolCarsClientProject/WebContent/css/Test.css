@@ -1,0 +1,35 @@
+form input[type="submit"] {
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 6px 12px;
+ 	text-decoration: none;
+	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 8px;
+  	margin-top: 15px;
+  	width: 150px;
+  	font-size:20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.main{
+	text-align:center;
+	padding: 15px;
+}
+
+#suite{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 8px;
+	width: 200px;
+}
+.link{
+	text-align: right;
+}

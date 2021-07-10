@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MY test page</title>
+</head>
+<body>
+<p>Här kan du skriva in ditt Test Case eller Test Suite:<br></p>
+<form action="TestServlet "method="get" name="youTypeItForm">
+<input type="text" name="suite" size=60value=/>
+<input type="submit" value="Run"/>
+</form>
+<hr>
+<p>Här kanduväljaenellerfleraavföljandetest:<br></p>
+<form action="TestServlet" method="get" name="youPickItForm">
+<select name="suite" size="2" multiple>
+<option value="com.coolcars.test.CCTest"> ics.junit.ejb.EmployeeBeanTest</option>
+<option value="com.coolcars..."> ett.annat.TestCase</option>
+</select>
+<input type="submit" value="Run"/>
+</form>
+</body>
+</html>

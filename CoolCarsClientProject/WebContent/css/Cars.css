@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+#carTable #trAvailableCars{
+	text-align: center;
+    font-size: 50px;
+    background-color: #d3d3d3;
+    padding-bottom: 2px;	
+
+}
+
+.introText {
+	background-color: #d3d3d3;
+	border: 2px solid black;
+	float:right;
+	width: 12%;
+	min-height: 80%;
+	margin-top: 50px;
+	margin-right:3%;
+	margin-left:auto;
+	padding:12px;
+	box-sizing: border-box;
+}
+p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+form input[type="submit"] {
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 12px 24px;
+ 	text-decoration: none;
+	margin: 4px 2px;
+  	cursor: pointer;
+  	width: 50%;
+  	height: 100%;
+  	border-radius: 8px;
+  	font-size: 16px;
+}
+form input[type="submit"]:hover {
+	background-color: #009880;
+}
+
+#carTable {
+  border-collapse: separate;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 26px;
+  border-radius: 10px 10px;
+  overflow: hidden;
+  width: 80%;
+  border: 2px solid black;
+  border-spacing: 0px;
+  
+}
+
+#carTable thead tr {
+  background-color: #d3d3d3;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#carTable th,
+#carTable td {
+  padding: 12px;
+}
+
+#carTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+
+#carTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#carTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+#carTable td:last-of-type{
+	min-width: 160px;
+}
+

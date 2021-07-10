@@ -1,0 +1,103 @@
+
+h1 {
+	margin-left: 530px;
+	margin-top: 20px;
+	margin-bottom: -15px;
+	font-weight: bold;
+}
+.readonly {
+	pointer-events: none;
+	background-color: darkgray;
+}
+#userProfile {
+	float: left;
+	margin-top: 80px;
+	margin-left: 75px;
+}
+form input[type="text"] {
+	margin: 15px;
+	float: right;
+	border-radius: 8px;
+	padding: 8px 18px;
+}
+form input[type="submit"]:hover {
+	background-color: #009880;
+}
+.label {
+	padding: 8px;
+	float: left;
+	margin: 15px;
+	font-weight: bold;
+}
+fieldset {
+	padding: 10px;
+}
+form input[type="submit"] {
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 8px 8px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 8px;
+	float: right;
+	margin-left: 10px;
+	
+}
+#btnCancel{
+	background-color: #DC143C;
+	margin-right: 33%;
+  	width: 50%;
+  	height: 100%;
+}
+
+#btnCancel:hover {
+	background-color: #b51636;
+}
+
+#userCars {
+  border-collapse: separate;
+  float: left;
+  margin-left: 75px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 26px;
+  border-radius: 10px 10px;
+  overflow: hidden;
+  width: 45%;
+  border: 2px solid black;
+  border-spacing: 0px;
+  min-width:800px;
+  
+}
+
+#userCars thead tr {
+  background-color: #d3d3d3;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#userCars th,
+#userCars td {
+  padding: 12px;
+}
+
+#userCars tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+}
+
+#userCars tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#userCars tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+#userCars td:last-of-type{
+	min-width: 120px;
+}
+

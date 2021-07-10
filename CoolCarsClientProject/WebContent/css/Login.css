@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+form {
+	padding-top: 5%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+form input[type="text"], input[type="password"] {
+	border-radius: 8px;
+	padding: 8px 18px;
+	margin-top: 10px;
+}
+
+form input[type="submit"], #btnregister {
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 8px 18px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 8px;
+}
+
+form input[type="submit"]:hover, #btnregister:hover {
+	background-color: #009880;
+}
